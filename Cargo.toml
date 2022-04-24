@@ -4,8 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [[bin]]
-name = "check_boxed_traits"
-path = "src/bin/check_boxed_traits.rs"
+name = "check_param_ref"
+path = "src/bin/check_param_ref.rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
