@@ -1,4 +1,5 @@
 /home/kensuke/workspace/GIT/garbageCodes/build/CMakeFiles/edit_cache.dir
 /home/kensuke/workspace/GIT/garbageCodes/build/CMakeFiles/rebuild_cache.dir
+/home/kensuke/workspace/GIT/garbageCodes/build/src/CMakeFiles/bit_rotation.dir
 /home/kensuke/workspace/GIT/garbageCodes/build/src/CMakeFiles/edit_cache.dir
 /home/kensuke/workspace/GIT/garbageCodes/build/src/CMakeFiles/rebuild_cache.dir

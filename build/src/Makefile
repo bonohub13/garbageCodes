@@ -116,6 +116,44 @@ depend:
 	cd /home/kensuke/workspace/GIT/garbageCodes/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+src/CMakeFiles/bit_rotation.dir/rule:
+	cd /home/kensuke/workspace/GIT/garbageCodes/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/bit_rotation.dir/rule
+.PHONY : src/CMakeFiles/bit_rotation.dir/rule
+
+# Convenience name for target.
+bit_rotation: src/CMakeFiles/bit_rotation.dir/rule
+.PHONY : bit_rotation
+
+# fast build rule for target.
+bit_rotation/fast:
+	cd /home/kensuke/workspace/GIT/garbageCodes/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/bit_rotation.dir/build.make src/CMakeFiles/bit_rotation.dir/build
+.PHONY : bit_rotation/fast
+
+bit_rotation.o: bit_rotation.c.o
+.PHONY : bit_rotation.o
+
+# target to build an object file
+bit_rotation.c.o:
+	cd /home/kensuke/workspace/GIT/garbageCodes/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/bit_rotation.dir/build.make src/CMakeFiles/bit_rotation.dir/bit_rotation.c.o
+.PHONY : bit_rotation.c.o
+
+bit_rotation.i: bit_rotation.c.i
+.PHONY : bit_rotation.i
+
+# target to preprocess a source file
+bit_rotation.c.i:
+	cd /home/kensuke/workspace/GIT/garbageCodes/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/bit_rotation.dir/build.make src/CMakeFiles/bit_rotation.dir/bit_rotation.c.i
+.PHONY : bit_rotation.c.i
+
+bit_rotation.s: bit_rotation.c.s
+.PHONY : bit_rotation.s
+
+# target to generate assembly for a file
+bit_rotation.c.s:
+	cd /home/kensuke/workspace/GIT/garbageCodes/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/bit_rotation.dir/build.make src/CMakeFiles/bit_rotation.dir/bit_rotation.c.s
+.PHONY : bit_rotation.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -124,6 +162,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... bit_rotation"
+	@echo "... bit_rotation.o"
+	@echo "... bit_rotation.i"
+	@echo "... bit_rotation.s"
 .PHONY : help
 
 

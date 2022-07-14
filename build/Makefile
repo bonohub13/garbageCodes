@@ -116,6 +116,19 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+#=============================================================================
+# Target rules for targets named bit_rotation
+
+# Build rule for target.
+bit_rotation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bit_rotation
+.PHONY : bit_rotation
+
+# fast build rule for target.
+bit_rotation/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/bit_rotation.dir/build.make src/CMakeFiles/bit_rotation.dir/build
+.PHONY : bit_rotation/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -124,6 +137,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... bit_rotation"
 .PHONY : help
 
 
