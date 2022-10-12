@@ -35,19 +35,19 @@ impl PrimeNumbers {
                 }
 
                 if is_prime {
-                    print!("current prime number: {}\r", current);
+                    eprint!("current prime number: {}\r", current);
                     data.push(current);
                 }
             }
         }
 
-        println!("\nDone!");
+        eprintln!("\nDone!");
     }
 }
 
 impl std::fmt::Display for PrimeNumbers {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
-        let mut output: String = String::from("[");
+        let mut output: String = String::from("PrimeNumbers [");
 
         for number in self.numbers.iter() {
             if number != self.numbers.last().unwrap() {
