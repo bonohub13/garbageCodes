@@ -5,7 +5,11 @@ edition = "2021"
 
 [[bin]]
 name = "check_param_ref"
-path = "src/bin/check_param_ref.rs"
+path = "src/check_param_ref.rs"
+
+[[bin]]
+name = "prime_numbers"
+path = "src/prime_numbers.rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
